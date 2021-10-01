@@ -1,0 +1,6 @@
+[submodule "design/amba_arbitrator_rtl"]
+	path = design/amba_arbitrator_rtl
+	url = https://github.com/Mohsannaeem/amba_arbitrator_rtl.git
+[submodule "verif/amba_arbitrator_uvm"]
+	path = verif/amba_arbitrator_uvm
+	url = https://github.com/Mohsannaeem/amba_arbitrator_uvm.git
