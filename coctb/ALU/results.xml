@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1641465010" />
-    <testcase name="alu_design_test" classname="alu_design_test" file="/home/dreambig/Personal/Verification/coctb/alu_design_test.py" lineno="1" time="0.19893717765808105" sim_time_ns="1739.001" ratio_time="8741.458084767193" />
-  </testsuite>
-</testsuites>
