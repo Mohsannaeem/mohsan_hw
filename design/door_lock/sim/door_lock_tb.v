@@ -3,7 +3,7 @@ module door_lock_tb ();
   
   
   reg clk, rst;
-  reg[3:0] key;
+  reg[7:0] key;
   
   wire locked;
   wire unlocked;
@@ -18,17 +18,17 @@ module door_lock_tb ();
   initial begin
     rst = 0;
     #10 rst = 1;
-    key =4'b0000;
+    key =8'b000000000;
     #10
-    key =4'b0100;
+    key =8'b010001000;
     #10
-    key =4'b1101;
+    key =8'b110101001;
     #10
-    key =4'b1101;
+    key =8'b110101001;
     #10
-    key =4'b1100;
+    key =8'b110000001;
     #10
-    key =4'b1110;
+    key =8'b111001101;
     $finish;
     
     

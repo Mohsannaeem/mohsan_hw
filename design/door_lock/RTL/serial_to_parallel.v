@@ -6,7 +6,7 @@ module par_o_ser_i (
   input            i_start,
   output reg       o_done,
   output     [7:0] o_data,
-  output reg          timeout
+  output reg       timeout
 );
 
   reg [15:0] reg_file; //register file
