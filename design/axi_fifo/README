@@ -1,0 +1,3 @@
+iverilog -g2005-sv -o fifo ./RTL/axi_fifo_top.sv ./RTL/fifo_memory.sv ./RTL/addr_generator.sv ./SIM/tb_axi_fifo.sv 
+vvp fifo
+gtkwave fifo.vcd

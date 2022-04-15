@@ -113,6 +113,6 @@ module door_lock (
     if(~rst)
       error <= 1'b0;
     else
-      error <= (key !=4'b1101)? 1'b1:1'b0; //error occurs if the input code doesn't match with unlocking combination
+      error <= (key !=8'b11011001)? 1'b1:1'b0; //error occurs if the input code doesn't match with unlocking combination
   end
 endmodule
