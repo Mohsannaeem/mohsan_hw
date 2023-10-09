@@ -1,6 +1,13 @@
 [submodule "design/amba_arbitrator_rtl"]
 	path = design/amba_arbitrator_rtl
 	url = https://github.com/Mohsannaeem/amba_arbitrator_rtl.git
+[submodule "design/basys3_uart"]
+	path = design/basys3_uart
+	url = https://github.com/Mohsannaeem/basys_uart.git
+[submodule "design/uart"]
+	path = design/uart
+	url = https://github.com/Mohsannaeem/uart.git
 [submodule "verif/amba_arbitrator_uvm"]
 	path = verif/amba_arbitrator_uvm
 	url = https://github.com/Mohsannaeem/amba_arbitrator_uvm.git
+
