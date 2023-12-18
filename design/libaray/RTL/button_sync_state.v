@@ -41,7 +41,7 @@ module button_sync(
 // --- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- -----
 // Current State Registers
 // --- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- -----
-always @(posedge clk or negedge rst) begin 
+always @(posedge clk or posedge rst) begin 
 	if(rst == 1) begin
 		curr_state <= WAITRISE;
 	end else begin

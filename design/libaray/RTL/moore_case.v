@@ -28,7 +28,7 @@ module vending_state_machine (
 // --- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- -----
 // Current State Registers
 // --- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- ----- ---- ---- -----
-always @(posedge clk or negedge rst) begin 
+always @(posedge clk or posedge rst) begin 
 	if(rst == 1) begin
 		curr_state <= IDLE;
 	end else begin
